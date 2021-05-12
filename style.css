@@ -1,0 +1,30 @@
+body{
+  height: 100vh;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contaier{
+  height: 300px;
+  width: 300px;
+  background-color: yellowgreen;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.item{
+  border: 3px solid black;
+  background-color:cornflowerblue;
+}
+.item1{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.item2{
+  height: 50px;
+  width: 200px;
+}
